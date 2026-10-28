@@ -1,15 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router'
+import Home from './pages/Home'
+import Carros from './pages/Carros'
 
 function App() {
   return (
-    <main className="min-h-screen bg-gray-950 flex flex-col items-center justify-center text-white">
-      <h1 className="text-5xl font-bold text-blue-400">
-        ImportDrive
-      </h1>
-
-      <p className="mt-4 text-lg">
-        Locação de Carros Importados
-      </p>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/carros" element={<Carros />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
