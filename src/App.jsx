@@ -1,14 +1,24 @@
 import { BrowserRouter, Routes, Route } from 'react-router'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Carros from './pages/Carros'
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/carros" element={<Carros />} />
-      </Routes>
+      <div className="flex min-h-screen flex-col bg-gray-950 text-white">
+        <Navbar />
+
+        <div className="flex-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/carros" element={<Carros />} />
+          </Routes>
+        </div>
+
+        <Footer />
+      </div>
     </BrowserRouter>
   )
 }
