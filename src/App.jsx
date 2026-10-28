@@ -1,10 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router'
+import Home from './pages/Home'
+import Carros from './pages/Carros'
 
 function App() {
   return (
-    <main>
-      <h1>ImportDrive</h1>
-      <p>Locação de Carros Importados</p>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/carros" element={<Carros />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
