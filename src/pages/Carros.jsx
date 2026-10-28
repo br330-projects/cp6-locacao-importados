@@ -13,7 +13,7 @@ const carros = [
   {
     id: 2,
     marca: 'Porsche',
-    modelo: '911 Carrera',
+    modelo: 'Panamera Turbo',
     cambio: 'Automático',
     lugares: 4,
     diaria: 3200,

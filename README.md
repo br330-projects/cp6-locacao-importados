@@ -1,16 +1,67 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ImportDrive
 
-Currently, two official plugins are available:
+Projeto desenvolvido para o Checkpoint 6 da disciplina de Web Development, do curso de Engenharia de Software da FIAP.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+A ImportDrive é uma locadora fictícia de carros importados.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O site apresenta a locadora e um catálogo com seis veículos, incluindo imagens, características e valores ilustrativos de locação.
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- React Router
+
+## Funcionalidades
+
+- Página inicial de apresentação da locadora
+- Catálogo com seis carros importados
+- Cards reutilizáveis para exibição dos veículos
+- Navegação entre as páginas Home e Carros
+- Layout responsivo para diferentes tamanhos de tela
+
+## Estrutura do projeto
+
+- `src/components/`: Navbar, Footer e Card
+- `src/pages/`: Home e Carros
+- `src/App.jsx`: configuração das rotas
+- `src/index.css`: importação do Tailwind CSS
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/br330-projects/cp6-locacao-importados.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd cp6-locacao-importados
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Acesse o endereço local informado pelo Vite no terminal.
+
+## Desenvolvedor
+
+**Bruno Gonçalves Minitti**  
+RM: 571981
+
+Engenharia de Software - FIAP
