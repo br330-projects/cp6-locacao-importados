@@ -4,9 +4,9 @@ const carros = [
   {
     id: 1,
     marca: 'BMW',
-    modelo: 'M4 Competition',
+    modelo: 'M5 Competition',
     cambio: 'Automático',
-    lugares: 4,
+    lugares: 5,
     diaria: 1850,
     imagem: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=85'
   },
