@@ -4,9 +4,9 @@ const carros = [
   {
     id: 1,
     marca: 'BMW',
-    modelo: 'M4 Competition',
+    modelo: 'M5 Competition',
     cambio: 'Automático',
-    lugares: 4,
+    lugares: 5,
     diaria: 1850,
     imagem: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=85'
   },
@@ -40,16 +40,16 @@ const carros = [
   {
     id: 5,
     marca: 'Ferrari',
-    modelo: 'Roma',
+    modelo: 'LaFerrari',
     cambio: 'Automático',
-    lugares: 4,
+    lugares: 2,
     diaria: 6500,
     imagem: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=85'
   },
   {
     id: 6,
-    marca: 'Lamborghini',
-    modelo: 'Huracán',
+    marca: 'Bugatti',
+    modelo: 'Chiron',
     cambio: 'Automático',
     lugares: 2,
     diaria: 7200,
