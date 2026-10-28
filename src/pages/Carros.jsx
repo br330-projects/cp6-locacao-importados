@@ -40,9 +40,9 @@ const carros = [
   {
     id: 5,
     marca: 'Ferrari',
-    modelo: 'Roma',
+    modelo: 'LaFerrari',
     cambio: 'Automático',
-    lugares: 4,
+    lugares: 2,
     diaria: 6500,
     imagem: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=85'
   },
