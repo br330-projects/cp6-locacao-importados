@@ -48,8 +48,8 @@ const carros = [
   },
   {
     id: 6,
-    marca: 'Lamborghini',
-    modelo: 'Huracán',
+    marca: 'Bugatti',
+    modelo: 'Chiron',
     cambio: 'Automático',
     lugares: 2,
     diaria: 7200,
