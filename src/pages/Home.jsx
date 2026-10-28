@@ -38,7 +38,7 @@ function Home() {
             className="h-80 w-full object-cover lg:h-105"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-gray-950/80 to-transparent" />
 
           <div className="absolute bottom-6 left-6">
             <p className="text-sm text-blue-400">
